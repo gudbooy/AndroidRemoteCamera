@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="/Users/Mini/Library/Android/sdk/extras/android/m2repository/com/android/support/support-v4/19.1.0/support-v4-19.1.0.jar"
+        jumboMode="false"
+        revision="23.0.0 rc2"
+        sha1="85f201b380937e61a9dce6ca90ccf6872abbfb67">
+        <dex dex="/Users/Mini/AndroidStudioProjects/TcpSocket/app/build/intermediates/pre-dexed/debug/support-v4-19.1.0-28168832a6ac8807a2bf16a6c01868d9228e5519.jar" />
+    </item>
+    <item
+        jar="/Users/Mini/AndroidStudioProjects/TcpSocket/app/build/intermediates/exploded-aar/TcpSocket/openCVLibrary300/unspecified/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.0 rc2"
+        sha1="87fcc81b5eac4fbd990ce031be4a0465bce704f7">
+        <dex dex="/Users/Mini/AndroidStudioProjects/TcpSocket/app/build/intermediates/pre-dexed/debug/classes-2cf0d3941d09207b49051f45c2771383764f06e5.jar" />
+    </item>
+
+</items>
