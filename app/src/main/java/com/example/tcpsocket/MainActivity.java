@@ -158,7 +158,7 @@ public class MainActivity extends Activity implements CvCameraViewListener2 {
     public Mat onCameraFrame(CvCameraViewFrame inputFrame) {
         Bitmap bmp = Bitmap.createBitmap(960, 720, Bitmap.Config.RGB_565);
         Mat image = inputFrame.rgba();
-        int outPutSize;
+        int outPutSize  = 0;
 
 
         if(start)
@@ -177,6 +177,7 @@ public class MainActivity extends Activity implements CvCameraViewListener2 {
                 tempOut.writeTo(dout);
                // dout.flush();
                 //dout.flush();
+
                 //start = false;
             }
              catch (Exception e)
