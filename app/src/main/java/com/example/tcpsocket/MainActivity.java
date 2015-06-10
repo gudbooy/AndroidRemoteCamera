@@ -168,7 +168,8 @@ public class MainActivity extends Activity implements CvCameraViewListener2 {
 
                 Bitmap resized = Bitmap.createScaledBitmap(bmp, 380, 360, true);
                 ByteArrayOutputStream tempOut = new ByteArrayOutputStream();
-                resized.compress(Bitmap.CompressFormat.JPEG, 50, tempOut);
+                //converting to JPEG Img
+				resized.compress(Bitmap.CompressFormat.JPEG, 50, tempOut);
 
                 outPutSize = tempOut.toByteArray().length;
                 //Log.d("tag", "FileSize : " +  tempOut.toByteArray().length);
