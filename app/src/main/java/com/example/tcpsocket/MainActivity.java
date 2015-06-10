@@ -176,6 +176,7 @@ public class MainActivity extends Activity implements CvCameraViewListener2 {
                 ms.sendMsg(String.valueOf(outPutSize));
                 tempOut.writeTo(dout);
                // dout.flush();
+                //dout.flush();
                 //start = false;
             }
              catch (Exception e)
