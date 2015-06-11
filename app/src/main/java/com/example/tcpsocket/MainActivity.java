@@ -124,6 +124,7 @@ public class MainActivity extends Activity implements CvCameraViewListener2 {
     @Override
     public void onResume()
     {
+		//this is the resume action
         super.onResume();
         if (!OpenCVLoader.initDebug()) {
            // Log.d(TAG, "Internal OpenCV library not found. Using OpenCV Manager for initialization");
